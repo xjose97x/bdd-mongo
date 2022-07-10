@@ -1,0 +1,166 @@
+db.Empleados.insertMany([
+    {
+        "_id": ObjectId("562a94d381cb9f1cd6eb0e1a"),
+        "DNI": "1700000000",
+        "Nombres": "Pepito",
+        "Apellidos": "De Los Palotes",
+        "Correo": "pepito@delospalotes.com",
+        "Telefono": "+593 4512312",
+        "Genero": "M",
+        "FechaNacimiento": "2000-01-01",
+        "FechaIngreso": "2022-06-28",
+        "Direccion": "Av. Granados E4-12",
+        "Salario": 450.0000,
+        "Tipo": "Limpieza",
+        "HorarioLaboral": [
+            {
+                "NumeroDia": 2,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 3,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 4,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 5,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 6,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            }
+        ]
+    },
+    {
+        "_id": ObjectId("62ca47a33d7d15f7435120ff"),
+        "DNI": "1700000002",
+        "Nombres": "Patricio",
+        "Apellidos": "Estrella",
+        "Correo": "patricioe@gmail.com",
+        "Telefono": "+593 4512232",
+        "Genero": "M",
+        "FechaNacimiento": "1997-01-16",
+        "FechaIngreso": "2022-06-28",
+        "Direccion": "Av. La Prensa E4-12",
+        "Salario": 500.0000,
+        "Tipo": "Limpieza",
+        "HorarioLaboral": [
+            {
+                "NumeroDia": 2,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 3,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 4,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 5,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 6,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            }
+        ]
+    },
+    {
+        "_id": ObjectId("62ca47c53d7d15f743512100"),
+        "DNI": "1200000000",
+        "Nombres": "Juan Carlos",
+        "Apellidos": "Bodoque",
+        "Correo": "juancarlos@bodoque.com",
+        "Telefono": "+593 987654421",
+        "Genero": "M",
+        "FechaNacimiento": "1997-01-01",
+        "FechaIngreso": "2022-06-28",
+        "Direccion": "Av. Amazonas E4-12",
+        "Salario": 700.0000,
+        "Tipo": "Proyeccion",
+        "HorarioLaboral": [
+            {
+                "NumeroDia": 2,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 3,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 4,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 5,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 6,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            }
+        ]
+    },
+    {
+        "_id": ObjectId("62ca47ff3d7d15f743512101"),
+        "DNI": "1200000003",
+        "Nombres": "Miguel",
+        "Apellidos": "Brito",
+        "Correo": "miguelb@gmail.com",
+        "Telefono": "+593 98123451",
+        "Genero": "M",
+        "FechaNacimiento": "2000-12-12",
+        "FechaIngreso": "2022-06-28",
+        "Direccion": "Av. 10 de Agosto E4-12",
+        "Salario": 800.0000,
+        "Tipo": "Proyeccion",
+        "HorarioLaboral": [
+            {
+                "NumeroDia": 2,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 3,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 4,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 5,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            },
+            {
+                "NumeroDia": 6,
+                "HoraInicio": "08:00:00",
+                "HoraFin": "16:00:00"
+            }
+        ]
+    }
+])

@@ -1,0 +1,4 @@
+db.createView( "ReportePeliculasAventura", "Peliculas", [
+        { $match: { Genero: "Aventura" } }
+    ]
+)

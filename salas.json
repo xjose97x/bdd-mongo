@@ -1,0 +1,64 @@
+db.Salas.insertMany([
+    {
+        "_id": ObjectId("62ca48d03d7d15f743512105"),
+        "Aforo": 250,
+        "TipoSala": "REG",
+        "TipoProyector": "D"
+    },
+    {
+        "_id": ObjectId("62ca48e93d7d15f743512106"),
+        "Aforo": 200,
+        "TipoSala": "REG",
+        "TipoProyector": "D"
+    },
+    {
+        "Aforo": 180,
+        "TipoSala": "REG",
+        "TipoProyector": "A"
+    },
+    {
+        "Aforo": 150,
+        "TipoSala": "REG",
+        "TipoProyector": "D"
+    },
+    {
+        "Aforo": 150,
+        "TipoSala": "REG",
+        "TipoProyector": "A"
+    },
+    {
+        "Aforo": 200,
+        "TipoSala": "3D",
+        "TipoProyector": "D"
+    },
+    {
+        "Aforo": 180,
+        "TipoSala": "3D",
+        "TipoProyector": "D"
+    },
+    {
+        "Aforo": 180,
+        "TipoSala": "3D",
+        "TipoProyector": "D"
+    },
+    {
+        "Aforo": 120,
+        "TipoSala": "4D",
+        "TipoProyector": "D"
+    },
+    {
+        "Aforo": 90,
+        "TipoSala": "4D",
+        "TipoProyector": "D"
+    },
+    {
+        "Aforo": 100,
+        "TipoSala": "VBOX",
+        "TipoProyector": "D"
+    },
+    {
+        "Aforo": 90,
+        "TipoSala": "VBOX",
+        "TipoProyector": "D"
+    }
+])

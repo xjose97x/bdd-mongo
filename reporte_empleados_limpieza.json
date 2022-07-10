@@ -1,0 +1,4 @@
+db.createView( "ReporteEmpleadosLimpieza", "Empleados", [
+    { $match: { Tipo: "Limpieza" } }
+    ]
+)

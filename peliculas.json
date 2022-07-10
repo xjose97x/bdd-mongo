@@ -1,0 +1,124 @@
+db.Peliculas.insertMany([
+    {
+        "_id": ObjectId("62ca48713d7d15f743512103"),
+        "Nombre": "Up",
+        "Sinopsis": "Un hombre amargado le cuelga globos a su casa y viaja a Sudamérica",
+        "Genero": "Comedia",
+        "Duracion": "01:47:00",
+        "ImagenUrl": "https:\/\/disney.com\/up\/up.jpg",
+        "Formato": "digital",
+        "FechaEstreno": "2010-05-05",
+        "FechaSalidaCartelera": "2010-07-05"
+    },
+    {
+        "_id": ObjectId("62ca48933d7d15f743512104"),
+        "Nombre": "Jurassic World: Dominion",
+        "Sinopsis": "La última parte en la saga épica de Jurassic Park",
+        "Genero": "Aventura",
+        "Duracion": "02:31:00",
+        "ImagenUrl": "https:\/\/universalapi.com\/jurassicworld\/dominion\/poster.jpg",
+        "Formato": "digital",
+        "FechaEstreno": "2022-04-07",
+        "FechaSalidaCartelera": "2022-06-07"
+    },
+    {
+        "Nombre": "Men",
+        "Sinopsis": "Una mujer tiene experiencias extrañas cuando se va de vacaciones para recuperarse de una tragedia",
+        "Genero": "Terror",
+        "Duracion": "02:01:00",
+        "ImagenUrl": "https:\/\/a24api.com\/men\/men.jpg",
+        "Formato": "35mm",
+        "FechaEstreno": "2022-06-05",
+        "FechaSalidaCartelera": "2022-08-05"
+    },
+    {
+        "Nombre": "Top Gun: Maverick",
+        "Sinopsis": "Después de 30 años de servicio, Maverick se niega a retirarse.",
+        "Genero": "Acción",
+        "Duracion": "02:10:00",
+        "ImagenUrl": "https:\/\/paramount.com\/topgun\/maverick\/poster.jpg",
+        "Formato": "IMAX",
+        "FechaEstreno": "2022-05-05",
+        "FechaSalidaCartelera": "2022-07-05"
+    },
+    {
+        "Nombre": "Todo al mismo tiempo en todas partes",
+        "Sinopsis": "Una mujer descubre que tiene el poder de salvar el multiverso de su hija.",
+        "Genero": "Sci-fi",
+        "Duracion": "02:14:00",
+        "ImagenUrl": "https:\/\/a24.com\/EEAAO\/poster.jpg",
+        "Formato": "16mm",
+        "FechaEstreno": "2022-05-05",
+        "FechaSalidaCartelera": "2022-07-05"
+    },
+    {
+        "Nombre": "Doctor Strange en el multiverso de la locura",
+        "Sinopsis": "Doctor Strange se enfrenta a una nueva amenaza, la Bruja Escarlata que busca apoderarse de los poderes de una joven que viaja a través de los universos",
+        "Genero": "Sci-fi",
+        "Duracion": "02:05:00",
+        "ImagenUrl": "https:\/\/disney.com\/drstrange\/multiverseofmaddness\/drstrange.jpg",
+        "Formato": "digital3D",
+        "FechaEstreno": "2022-05-05",
+        "FechaSalidaCartelera": "2022-07-15"
+    },
+    {
+        "Nombre": "Doctor Strange en el multiverso de la locura",
+        "Sinopsis": "Doctor Strange se enfrenta a una nueva amenaza, la Bruja Escarlata que busca apoderarse de los poderes de una joven que viaja a través de los universos",
+        "Genero": "Sci-fi",
+        "Duracion": "02:05:00",
+        "ImagenUrl": "https:\/\/disney.com\/drstrange\/multiverseofmaddness\/drstrange.jpg",
+        "Formato": "digital",
+        "FechaEstreno": "2022-05-05",
+        "FechaSalidaCartelera": "2022-07-15"
+    },
+    {
+        "Nombre": "Sonic 2",
+        "Sinopsis": "Las nuevas aventuras de Sonic. Esta vez, tiene que volver a enfrentar a Dr. Robotnik y su nuevo secuaz con la ayuda de nuevos aliados.",
+        "Genero": "Aventura",
+        "Duracion": "02:02:00",
+        "ImagenUrl": "https:\/\/paramount.com\/sonic\/movie\/sequel\/poster.jpg",
+        "Formato": "digital3D",
+        "FechaEstreno": "2022-05-17",
+        "FechaSalidaCartelera": "2022-07-19"
+    },
+    {
+        "Nombre": "Lightyear",
+        "Sinopsis": "La historia de origen de Buzz Lightyear, una aventura intergaláctica junto a un grupo de ambiciosos reclutas y su divertido compañero robot Sox.",
+        "Genero": "Aventura",
+        "Duracion": "01:46:00",
+        "ImagenUrl": "https:\/\/disney.com\/lightyear\/poster.jpg",
+        "Formato": "digital",
+        "FechaEstreno": "2022-06-16",
+        "FechaSalidaCartelera": "2022-08-21"
+    },
+    {
+        "Nombre": "Thor: Amor y Trueno",
+        "Sinopsis": "La película encuentra a Thor (Chris Hemsworth) en un viaje diferente a todo lo que ha enfrentado: una búsqueda de paz interior. Pero su retiro es interrumpido por un asesino de la galaxia conocido como Gorr, el Carnicero de Dioses (Christian Bale), que busca la extinción de los dioses.",
+        "Genero": "Acción",
+        "Duracion": "02:13:00",
+        "ImagenUrl": "https:\/\/disney.com\/marvel\/thor\/loveandthunder.jpg",
+        "Formato": "IMAX",
+        "FechaEstreno": "2022-07-03",
+        "FechaSalidaCartelera": "2022-09-05"
+    },
+    {
+        "Nombre": "El Gato con Botas: El último deseo",
+        "Sinopsis": "El último deseo sigue las nuevas andanzas del temerario y valiente felino. En esta ocasión, el campestre personaje descubrirá el precio de su pasión por el peligro y el no tenerle miedo a la muerte.",
+        "Genero": "Aventura",
+        "Duracion": "01:40:00",
+        "ImagenUrl": "https:\/\/universal.com\/dreamworks\/pussinboots2\/poster.jpg",
+        "Formato": "IMAX",
+        "FechaEstreno": "2022-10-05",
+        "FechaSalidaCartelera": "2022-12-05"
+    },
+    {
+        "Nombre": "Crimes of the Future",
+        "Sinopsis": "En un futuro no muy lejano la humanidad está aprendiendo a adaptarse a su entorno sintético, en un mundo donde no existe el dolor. Esta evolución lleva a los humanos más allá de su estado natural y hacia una metamorfosis, alterando su estructura biológica.",
+        "Genero": "Terror",
+        "Duracion": "01:47:00",
+        "ImagenUrl": "https:\/\/telefilm.com\/international\/crimesofthefuture\/poster.jpg",
+        "Formato": "35mm",
+        "FechaEstreno": "2022-05-22",
+        "FechaSalidaCartelera": "2022-07-22"
+    }
+])

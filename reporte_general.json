@@ -1,0 +1,42 @@
+db.createView( "ReporteGeneral", "Funciones", [
+    {
+       $lookup:
+          {
+             from: "Salas",
+             localField: "SalaId",
+             foreignField: "_id",
+             as: "Sala"
+          }
+    },
+    {
+        $lookup:
+           {
+              from: "Empleados",
+              localField: "EmpleadoLimpiezaId",
+              foreignField: "_id",
+              as: "EmpleadoLimpieza"
+           }
+     },
+     {
+        $lookup:
+           {
+              from: "Empleados",
+              localField: "EmpleadoProyecionId",
+              foreignField: "_id",
+              as: "EmpleadoProyecion"
+           }
+     },
+     {
+        $lookup:
+           {
+              from: "Peliculas",
+              localField: "PeliculaId",
+              foreignField: "_id",
+              as: "Pelicula"
+           }
+     },
+    { $unwind: "$Sala" },
+    { $unwind: "$EmpleadoLimpieza" },
+    { $unwind: "$EmpleadoProyecion" },
+    { $unwind: "$Pelicula" }
+ ] )
